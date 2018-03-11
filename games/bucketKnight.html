@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="Bucket Knight | WebGL">
+    <meta name="author" content="Jan Ivar Z. Carlsen">
+
+    <title>Bucket Knight | WebGL</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
+
+    <!-- Stylesheets -->
+    <link href="../css/main.css" rel="stylesheet">
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="../img/BucketKnightIcon.png">
+
+    <!-- Unity Loader -->
+    <script src="UnityLoader.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "BucketKnight/WebGL.json");
+    </script>
+
+</head>
+
+<body>
+
+    <div class="wrapper" style="margin: 0 auto; width: 1600px; position: relative;">
+        <h2 class="display-5 py-3" style="margin-top: 30px; margin-bottom: 0px">Bucket Knight: River Adventures</h2>
+        <div id="gameContainer" style="width: 1600px; height: 900px;"></div>
+    </div>
+
+    <footer>
+        <div class="container page-footer">
+            <div class="row">
+                <p class="copyright text-muted small" style="margin-left: auto; margin-right: auto">Copyright &copy; Jan Ivar Z. Carlsen 2018. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
